@@ -1,0 +1,19 @@
+<!-- 如需要对 HTML 大量自定义，在源代码中添加一个用于生成 HTML 的模板 -->
+<!-- 让 html-webpack-plugin 插件根据这个模板去生成 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Lodash 模板语法 -->
+  <!-- htmlWebpackPlugin.options 访问插件的配置数据 -->
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+  <div class="container">
+    <h1>页面上的基础结构</h1>
+    <div id="root"></div>
+  </div>
+</body>
+</html>
