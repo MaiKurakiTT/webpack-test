@@ -6,3 +6,9 @@ body {
     background: #f2f2f2;
     color: #333;
 }
+.colorA {
+    color: #000;
+}
+.editor {
+    border: 1px solid red;
+}
